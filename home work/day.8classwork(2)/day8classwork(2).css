@@ -1,0 +1,22 @@
+body{
+    background-color: #141467 rgb(39, 113, 178);
+    font-family: "WEBSITE";
+    color: hsl(90, 73%, 49%);
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+h2{
+    font-size: 40px;
+    font-style: italic;
+}
+button{
+    background-color: #74d7dd;  
+    font-size: 30px;
+    font-weight:705;
+}
+pre{
+    font-size: medium; 
+}      
