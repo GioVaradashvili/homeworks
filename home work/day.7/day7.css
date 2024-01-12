@@ -1,19 +1,1 @@
-form{
-    text-align: center;
-    font-size: larger;
-    background-color: hsl(153, 83%, 35%);
-}
-
-button{
-    background-color: rgb(201, 224, 32);
-    font-size: medium;
-}
-
-input{
-    font-size: larger;
-}
-
-body{
-    background-color: hwb(103 8% 22%);
-}
 
