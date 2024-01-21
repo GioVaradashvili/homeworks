@@ -1,26 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Passport Website</title>
+    <title>header website</title>
     <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #00a74b;
+        }
+
+        header {
+            background-color: hwb(187 3% 36%);
+            color: hsl(144, 100%, 24%);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: hsl(71, 100%, 49%);
+            padding: 10px;
+        }
+
+        nav a {
+            color: hsl(0, 100%, 20%);
+            text-decoration: none;
+            padding: 10px;
+            margin: 0 10px;
+        }
+
+        nav a:hover {
+            background-color: #555;
+            border-radius: 5px;
+        }
     </style>
 </head>
+
 <body>
-    <div id="passport">
-        <div class="passport-header">Passport</div>
-        <div class="passport-photo"><img src="giorgis.jpg" height="120px" width="89px"></div>
-        <div class="passport-info">
-            <div class="info-line">Name:giorgi varadashvili</div>
-            <div class="info-line">Date of Birth: 02/03/2009</div>
-            <div class="info-line">Nationality: Georgian</div>
-            <div class="info-line">Sex: Male (M)</div>
-            <div class="info-line">Passport No: A6306B265C361</div>
-            <div class="info-line">Expiry Date: 11/11/2032</div>
-            <div class="info-line">work/study: GOAL-ORIENTED-ACADEMY</div>
-            <div class="imfo-line">rank/statues: mini squad leader</div>
-        </div>
-    </div>
+    <header>
+        <h1>header</h1>
+    </header>
 </body>
+
 </html>
