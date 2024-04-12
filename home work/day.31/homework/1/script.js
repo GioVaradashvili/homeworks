@@ -9,5 +9,4 @@ function infoJoin(name, surname, age, location, interest) {
     return info;
 }
 
-var myInfo = myInfo("gio", "varadashvili", 15, "kvareli", "coding");
-console.log(myInfo);
+var myInfo = myInfo("gio"
